@@ -57,12 +57,14 @@ body {
 }
 
 .cogwheel3 {
-    top: 5%;
-    right: 0;
+    bottom: 582px;
+    right: 80px;
+    width: 300px;
+    height: auto;
 }
 
 .cogwheel4 {
-    bottom: 4.2%;
+    bottom: 40px;
     right: 80px;
     width: 300px;
     height: auto;
@@ -88,7 +90,7 @@ body {
 
 .toothtrack {
     position: fixed;
-    top: -90px;
+    /* top: -90px; */
 }
 
 .toothtrack1 {
@@ -96,7 +98,8 @@ body {
 }
 
 .toothtrack2 {
-    top: -23px;
+    /* top: -23px; */
+    bottom: -660px;
     right: 350px;
     width: 120px;
     height: auto;
