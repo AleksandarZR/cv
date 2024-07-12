@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted purple;
+    overflow-x: hidden;
+}
+
+body {
+    width: 90vw;
+    min-height: 500vh;
+    overflow-x: hidden;
+    line-height: 1.8;
+    border: 1px dotted purple;
+    white-space: wrap;
+    word-wrap: break-word;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.page {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.cogwheel {
+    position: fixed;
+    /* transform: scale(0.5); */
+}
+
+.cogwheel1 {
+    top: 5%;
+    left: 0;
+}
+
+.cogwheel2 {
+    bottom: 5%;
+    left: 0;
+}
+
+.cogwheel3 {
+    top: 5%;
+    right: 0;
+}
+
+.cogwheel4 {
+    bottom: 5%;
+    right: 0;
+}
+
+.animation-rotate-cw {
+    animation: rotate-cw 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.animation-rotate-ccw {
+    animation: rotate-ccw 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+.toothtrack {
+    position: fixed;
+    top: -108px;
+}
+
+.toothtrack1 {
+    left: 335px;;
+}
+
+.toothtrack2 {
+    right: 335px;
+}
+
+.animation-translate-y {
+    animation: translate-y 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+svg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+
+    animation: rotate-cw 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes rotate-cw {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-ccw {
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes translate-y {
+    to {
+        transform: translateY(-950px);
+    }
+}
