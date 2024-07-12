@@ -45,13 +45,15 @@ body {
 }
 
 .cogwheel1 {
-    top: 5%;
+    top: 8.5%;
     left: 0;
 }
 
 .cogwheel2 {
-    bottom: 5%;
-    left: 0;
+    bottom: 4.2%;
+    left: 70px;
+    width: 300px;
+    height: auto;
 }
 
 .cogwheel3 {
@@ -84,15 +86,17 @@ body {
 
 .toothtrack {
     position: fixed;
-    top: -108px;
+    top: -90px;
 }
 
 .toothtrack1 {
-    left: 335px;;
+    left: 350px;;
 }
 
 .toothtrack2 {
-    right: 335px;
+    right: 350px;
+    width: 80px;
+    height: auto;
 }
 
 .animation-translate-y {
@@ -133,6 +137,6 @@ svg {
 
 @keyframes translate-y {
     to {
-        transform: translateY(-950px);
+        transform: translateY(-830px);
     }
 }
