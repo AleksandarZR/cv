@@ -1,6 +1,6 @@
 :root {
-    --background-color: rgb(221,160,126);
-    --foreground-color: rgb(187, 187,187);
+    --background-color: rgb(221, 160, 126);
+    --foreground-color: rgb(187, 187, 187);
     --shadow-color: lightblue;
 }
 
@@ -46,9 +46,9 @@ body {
     z-index: 100;
     padding-left: 1rem;
     padding-right: 1rem;
-    
+
     /* background-color: var(--foreground-color); */
-    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(48, 48, 176) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%);
     box-shadow: 0.2rem 0.2rem 1rem black;
     border-style: solid;
     /* border-bottom-width: 0.5rem; */
@@ -75,37 +75,6 @@ body {
 .link {
     /* padding-left: 1rem; */
     padding-right: 1rem;
-}
-
-.page {
-    /* min-width: 100%; */
-    min-height: 100vh;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    /* position: fixed; */
-}
-
-.page1 {
-    /* background-color: aqua; */
-}
-
-.page2 {
-    /* background-color: rgb(0, 255, 0); */
-}
-
-.page3 {
-    /* background-color: rgb(126, 126, 227); */
-}
-
-.page4 {
-    /* background-color: rgb(237, 247, 197); */
-}
-
-.page5 {
-    /* background-color: rgb(252, 197, 126); */
 }
 
 .cogwheel {
@@ -161,12 +130,103 @@ body {
 }
 
 .toothtrack1 {
-    left: 220px;;
+    left: 220px;
+    ;
 }
 
 .toothtrack2 {
     right: 220px;
 }
+
+.page {
+    min-width: 100%;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1 {
+    /* background-color: aqua; */
+}
+
+.page2 {
+    /* background-color: rgb(0, 255, 0); */
+}
+
+.page3 {
+    /* background-color: rgb(126, 126, 227); */
+}
+
+.page4 {
+    /* background-color: rgb(237, 247, 197); */
+}
+
+.page5 {
+    /* background-color: rgb(252, 197, 126); */
+}
+
+.card {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    height: 70%;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 32px 48px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    width: calc(100% - 3rem);
+    /* min-width: 49%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 212, 255, 1); */
+    background-color: rgb(10, 10, 110);
+    /* background: linear-gradient(90deg, rgba(0, 212, 255, 1) 00%, rgb(48, 48, 176) 50%); */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: space-between;
+    column-gap: 2%;
+    row-gap: 1rem;
+    /* width: calc(98% - 10rem); */
+    /* width: 98%; */
+    /* max-width: calc(98% - 1rem); */
+    width: calc(100% - 2%);
+
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.grid-item {
+    width: 100%;
+    /* background-color: lightgray; */
+}
+
 
 .animation-translate-y {
     animation: translate-y 1s linear infinite;
