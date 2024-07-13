@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    width: 90vw;
+    width: 100vw;
     min-height: 500vh;
     overflow-x: hidden;
     line-height: 1.8;
@@ -99,7 +99,7 @@ body {
 
 .toothtrack2 {
     /* top: -23px; */
-    bottom: -660px;
+    bottom: -877px;
     right: 350px;
     width: 120px;
     height: auto;
@@ -158,6 +158,6 @@ svg {
 
 @keyframes translate-y-right {
     to {
-        transform: translateY(-870px);
+        transform: translateY(-865px);
     }
 }
