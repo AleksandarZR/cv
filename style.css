@@ -29,45 +29,61 @@ body {
 }
 
 .page {
-    min-width: 100%;
-    min-height: 100%;
-    background-color: aqua;
+    /* min-width: 100%; */
+    min-height: 100vh;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    position: relative;
+    /* position: fixed; */
+}
+
+.page1 {
+    /* background-color: aqua; */
+}
+
+.page2 {
+    /* background-color: rgb(0, 255, 0); */
+}
+
+.page3 {
+    /* background-color: rgb(126, 126, 227); */
+}
+
+.page4 {
+    /* background-color: rgb(237, 247, 197); */
+}
+
+.page5 {
+    /* background-color: rgb(252, 197, 126); */
 }
 
 .cogwheel {
     position: fixed;
+    width: 200px;
+    height: auto;
     /* transform: scale(0.5); */
 }
 
 .cogwheel1 {
-    top: 8.5%;
-    left: 0;
+    bottom: 450px;
+    left: 40px;
 }
 
 .cogwheel2 {
-    bottom: 4.2%;
-    left: 80px;
-    width: 300px;
-    height: auto;
+    bottom: 83px;
+    left: 40px;
 }
 
 .cogwheel3 {
-    bottom: 582px;
-    right: 80px;
-    width: 300px;
-    height: auto;
+    bottom: 450px;
+    right: 40px;
 }
 
 .cogwheel4 {
-    bottom: 40px;
-    right: 80px;
-    width: 300px;
-    height: auto;
+    bottom: 83px;
+    right: 40px;
 }
 
 .animation-rotate-cw {
@@ -90,19 +106,17 @@ body {
 
 .toothtrack {
     position: fixed;
-    /* top: -90px; */
+    bottom: -835px;
+    width: 80px;
+    height: auto;
 }
 
 .toothtrack1 {
-    left: 350px;;
+    left: 220px;;
 }
 
 .toothtrack2 {
-    /* top: -23px; */
-    bottom: -877px;
-    right: 350px;
-    width: 120px;
-    height: auto;
+    right: 220px;
 }
 
 .animation-translate-y {
@@ -158,6 +172,6 @@ svg {
 
 @keyframes translate-y-right {
     to {
-        transform: translateY(-865px);
+        transform: translateY(-587px);
     }
 }
