@@ -1,6 +1,7 @@
 :root {
     --background-color: rgb(221, 160, 126);
     --foreground-color: rgb(187, 187, 187);
+    --orange: rgb(250, 126, 57);
     --shadow-color: lightblue;
 }
 
