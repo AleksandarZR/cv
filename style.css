@@ -86,27 +86,27 @@ body {
 }
 
 .cogwheel00 {
-    bottom: 670px;
+    bottom: 597px;
     left: 40px;
 }
 
 .cogwheel01 {
-    bottom: 522px;
+    bottom: 449px;
     left: -58px;
 }
 
 .cogwheel1 {
-    bottom: 376px;
+    bottom: 303px;
     left: 40px;
 }
 
 .cogwheel12 {
-    bottom: 230px;
+    bottom: 157px;
     left: -60px;
 }
 
 .cogwheel2 {
-    bottom: 83px;
+    bottom: 10px;
     left: 40px;
 }
 
@@ -253,7 +253,8 @@ body {
     /* background-color: rgb(48, 48, 176); */
     /* background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%); */
     /* background-color: rgba(0, 212, 255, 1); */
-    box-shadow: 0px 2px 10px;
+    /* box-shadow: 0px 0px 10px; */
+    border-bottom: 2px solid var(--orange);
     /* background-color: var(--orange); */
     display: flex;
     flex-direction: column;
