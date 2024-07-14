@@ -135,6 +135,22 @@ body {
     right: 40px;
 }
 
+.toothtrack {
+    position: fixed;
+    bottom: -845px;
+    width: 80px;
+    height: auto;
+}
+
+.toothtrack1 {
+    left: 218px;
+    left: 218px;
+}
+
+.toothtrack2 {
+    right: 218px;
+}
+
 .animation-rotate-cw {
     animation: rotate-cw 1s linear infinite;
     animation-play-state: paused;
@@ -151,21 +167,6 @@ body {
 
     animation-iteration-count: 1;
     animation-fill-mode: both;
-}
-
-.toothtrack {
-    position: fixed;
-    bottom: -845px;
-    width: 80px;
-    height: auto;
-}
-
-.toothtrack1 {
-    left: 218px;
-}
-
-.toothtrack2 {
-    right: 218px;
 }
 
 .page {
