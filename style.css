@@ -260,6 +260,8 @@ body {
 }
 
 .header {
+    margin: 0 30px 0 30px;
+    border: 2px 0 2px 0 solid black;
     grid-area: header;
     text-align: center;
     font-weight: 700;
@@ -268,7 +270,9 @@ body {
     /* background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%); */
     /* background-color: rgba(0, 212, 255, 1); */
     /* box-shadow: 0px 0px 10px; */
-    border-bottom: 2px solid var(--orange);
+    /* border-bottom: 2px solid var(--orange); */
+    background-color: rgba(0, 212, 255, 1);
+    
     /* background-color: var(--orange); */
     display: flex;
     flex-direction: column;
