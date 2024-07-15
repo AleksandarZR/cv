@@ -54,7 +54,10 @@ body {
     background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%);
     box-shadow: 0.2rem 0.2rem 1rem black;
     border-style: solid;
-    /* border-bottom-width: 0.5rem; */
+    /* border: 0px 0px 5px 0px; */
+    border-top: 0px;
+    border-color: black;
+    border-bottom-width: 0.2rem;
     border-bottom-color: black;
 
     display: flex;
