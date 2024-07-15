@@ -224,7 +224,7 @@ body {
     box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
-    /* width: calc(100% - 300px - 300px - 40px - 40px); */
+    width: calc(100% - 300px - 300px - 40px - 40px);
     height: 70%;
     background-color: white;
 
