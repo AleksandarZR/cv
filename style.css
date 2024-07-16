@@ -546,6 +546,12 @@ body {
     .card {
         width: calc(100% - 120px - 120px - 10px - 10px);
         height: 75%;
+        justify-content: flex-start;
+    }
+
+    .image-container {
+        height: auto;
+        max-height: 30%;
     }
 
     .header {
