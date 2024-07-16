@@ -160,17 +160,17 @@ body {
 
 .toothtrack {
     position: fixed;
-    bottom: -845px;
-    width: 80px;
+    bottom: -833px;
+    width: 53px;
     height: auto;
 }
 
 .toothtrack1 {
-    left: 200px;
+    left: 219px;
 }
 
 .toothtrack2 {
-    right: 200px;
+    right: 219px;
 }
 
 .animation-rotate-cw {
@@ -327,7 +327,7 @@ body {
 
 @keyframes translate-y {
     to {
-        transform: translateY(-587px);
+        transform: translateY(-467px);
     }
 }
 
@@ -391,17 +391,17 @@ body {
 
     .toothtrack {
         position: fixed;
-        bottom: -826px;
-        width: 40px;
+        bottom: -823px;
+        width: 33px;
         height: auto;
     }
 
     .toothtrack1 {
-        left: 130px;
+        left: 136px;
     }
 
     .toothtrack2 {
-        right: 130px;
+        right: 136px;
     }
 
     .card {
@@ -410,7 +410,7 @@ body {
 
     @keyframes translate-y {
         to {
-            transform: translateY(-294px);
+            transform: translateY(-292px);
         }
     }
 }
@@ -524,7 +524,7 @@ body {
     }
 
     .toothtrack {
-        bottom: -820px;
+        bottom: -332px;
         width: 17px;
     }
 
