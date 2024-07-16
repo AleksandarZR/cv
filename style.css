@@ -3,6 +3,8 @@
     --foreground-color: rgb(187, 187, 187);
     --orange: rgb(250, 126, 57);
     --shadow-color: lightblue;
+    --darkblue: rgb(10, 10, 110);
+    --lightblue: rgba(0, 212, 255, 1);
 }
 
 * {
@@ -255,7 +257,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(10, 10, 110);
+    background-color: var(--lightblue);
 }
 
 .image {
