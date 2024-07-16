@@ -257,7 +257,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--lightblue);
+    /* background-color: var(--lightblue); */
 }
 
 .image {
@@ -291,7 +291,7 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 1.5rem;
-    background-color: rgba(0, 212, 255, 1);
+    background-color: rgba(0, 212, 255, 0.5);
 
     display: flex;
     flex-direction: column;
@@ -416,7 +416,7 @@ body {
         overflow-y: hidden;
     }
     .card {
-        height: 80%;
+        height: 75%;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -438,5 +438,105 @@ body {
 }
 
 @media(max-width: 900px) {
+    body {
+        min-height: 800vh;
+    }
 
+    .cogwheel {
+        width: 50px;
+        height: auto;
+    }
+
+    .cogwheel01left {
+        bottom: 150px;
+        left: 24px;
+    }
+
+    .cogwheel02left {
+        bottom: 113px;
+        left: 0px;
+    }
+
+    .cogwheel03left {
+        bottom: 75px;
+        left: 24px;
+    }
+
+    .cogwheel04left {
+        bottom: 38px;
+        left: 0px;
+    }
+
+    .cogwheel05left {
+        bottom: 0px;
+        left: 24px;
+    }
+
+    .cogwheel01right {
+        bottom: 150px;
+        right: 24px;
+    }
+
+    .cogwheel02right {
+        bottom: 113px;
+        right: 0px;
+    }
+
+    .cogwheel03right {
+        bottom: 75px;
+        right: 24px;
+    }
+
+    .cogwheel04right {
+        bottom: 38px;
+        right: 0px;
+    }
+
+    .cogwheel05right {
+        bottom: 0px;
+        right: 24px;
+    }
+
+    .toothtrack {
+        bottom: -820px;
+        width: 17px;
+    }
+
+    .toothtrack1 {
+        left: 68px;
+        content: url("./images/toothtrack22left.png");
+    }
+
+    .toothtrack2 {
+        right: 68px;
+        content: url("./images/toothtrack22right.png");
+    }
+
+    .page {
+        height: 200vh;
+        min-height: 200vh;
+    }
+
+    .card {
+        width: calc(100% - 120px - 120px - 10px - 10px);
+        height: 85%;
+    }
+
+    @keyframes rotate-cw {
+        to {
+            transform: rotate(720deg);
+        }
+    }
+    
+    @keyframes rotate-ccw {
+        to {
+            transform: rotate(-720deg);
+        }
+    }
+    
+    @keyframes translate-y {
+        to {
+            transform: translateY(-301px);
+        }
+    }
 }
