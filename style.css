@@ -46,7 +46,8 @@ body {
     white-space: wrap;
     word-wrap: break-word;
     /* background-color: aliceblue; */
-    background-color: rgb(216, 234, 249);
+    /* background-color: rgb(216, 234, 249); */
+    background-color: lavender;
 
     display: flex;
     flex-direction: column;
@@ -92,6 +93,13 @@ h1 {
 
 .hamburger-menu {
     display: none;
+}
+
+.a-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .svg {
@@ -330,7 +338,8 @@ h1 {
     font-weight: 700;
     font-size: 1.5rem;
     /* background-color: rgba(0, 212, 255, 0.5); */
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
+    background-color: lavender;
 
     display: flex;
     flex-direction: column;
@@ -495,7 +504,7 @@ h1 {
         z-index: 100;
         /* font-size: 0.7rem; */
         /* background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%); */
-        background-color: var(--lightblue);
+        background-color: var(--navigation-color);
         box-shadow: 0.2rem 0.2rem 1rem black;
 
         display: flex;
@@ -566,12 +575,12 @@ h1 {
 
     .toothtrack1 {
         left: 68px;
-        content: url("./images/toothtrack22left.png");
+        /* content: url("./images/toothtrack22left.png"); */
     }
 
     .toothtrack2 {
         right: 68px;
-        content: url("./images/toothtrack22right.png");
+        /* content: url("./images/toothtrack22right.png"); */
     }
 
     .page {
