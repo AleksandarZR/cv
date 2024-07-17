@@ -17,9 +17,12 @@
     --lightblue: rgb(122, 188, 241);
 
     --navigation-height: 5rem;
-    --navigation-color: var(--lightorange);
+    --navigation-color: lavender;
+    --navigation-color: var(--lightorange);   
     --navigation-shadow:  0rem 0rem 1.2rem rgb(53, 37, 72);
     --background-color: lavender;
+    --background-color: rgb(177, 177, 177);
+    --background-color: rgb(77, 77, 77);
     --header-color: var(--lightgreen);
     --grid-color: white;
     --metal-color: rgb(128, 128, 128);
