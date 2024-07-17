@@ -6,6 +6,7 @@
     --orange: rgb(250, 126, 57);
     --lightorange: rgb(248, 164, 113);
     --lightorange: rgb(254, 184, 140);
+    --lightorangetransparent: rgba(254, 184, 140, 0.9);
     --lightyellow: rgb(245, 254, 139);
     --lightgreen: rgb(128, 252, 128);
     --shadow-color: lightblue;
@@ -455,6 +456,9 @@ h1 {
     .image-experience {
         content: url("./images/image08.png");
     }
+    .header {
+        font-size: 1.2rem;
+    }
     .data {
         max-height: 70%;
         height: 70%;
@@ -474,15 +478,37 @@ h1 {
 
     .hamburger-menu {
         width: 100%;
-        height: var(--navigation-height);
+        /* height: var(--navigation-height); */
+        min-height: var(--navigation-height);
         position: fixed;
         z-index: 100;
+        box-shadow: var(--navigation-shadow);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .hamburger-items {
+        width: 100%;
+        min-height: var(--navigation-height);
         background-color: var(--navigation-color);
         box-shadow: var(--navigation-shadow);
 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    #dropdown-menu {
+        width: 100%;
+        background-color: var(--lightorangetransparent);
+
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
     }
 

@@ -37,3 +37,14 @@ function scrollToAbout() {
     let windowHeight = window.innerHeight;
     window.scrollTo(0, 4 * windowHeight);
 }
+
+function changeDropDownMenuVisibility() {
+    var display = document.getElementById("dropdown-menu").style.display;
+    
+    if (display === "flex") {
+        document.getElementById("dropdown-menu").style.display = "none";
+    } else {
+        document.getElementById("dropdown-menu").style.display = "flex";
+    }
+
+}

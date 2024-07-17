@@ -16,7 +16,7 @@
             <h1>Aleksandar Pletl</h1>
             <img class="navigation-cog" src="./images/cogwheel15.png">
         </div>
-        
+
         <div class="links">
             <p class="link" onclick="scrollToPersonal()">Personal</p>
             <p class="link" onclick="scrollToEducation()">Education</p>
@@ -26,11 +26,20 @@
     </div>
 
     <div class="hamburger-menu">
-        <a class="a-link" href="https://www.linkedin.com/in/aleksandar-pletl-24158846/" target="_blank">
-            <img class="svg" src="./svg/linkedin.svg">
-        </a>
-        <h1>Aleksandar Pletl</h1>
-        <img class="svg" src="./svg/menu-button.svg">
+        <div class="hamburger-items">
+            <a class="a-link" href="https://www.linkedin.com/in/aleksandar-pletl-24158846/" target="_blank">
+                <img class="svg" src="./svg/linkedin.svg">
+            </a>
+            <h1>Aleksandar Pletl</h1>
+            <img class="svg" src="./svg/menu-button.svg" onclick="changeDropDownMenuVisibility()">
+        </div>
+
+        <div class="links" id="dropdown-menu">
+            <p class="link hamburger-link" onclick="scrollToPersonal()">Personal</p>
+            <p class="link hamburger-link" onclick="scrollToEducation()">Education</p>
+            <p class="link hamburger-link" onclick="scrollToSkills()">Skills</p>
+            <p class="link hamburger-link" onclick="scrollToExperience()">Experience</p>
+        </div>
     </div>
 
     <img class="cogwheel cogwheel01left animation-rotate-ccw" src="./images/cogwheel15.png"></img>
@@ -129,13 +138,13 @@
             <div class="data">
                 <div class="grid-item header">WORKING EXPERIENCE</div>
                 <div class="grid-item">ACE (Automatic Control Engineering) Zrenjanin</div>
-                <div class="grid-item">Mar 2008 - May 2011</div>
+                <div class="grid-item">2008 - 2011</div>
                 <div class="grid-item">Schneider Electric DMS Novi Sad</div>
-                <div class="grid-item">Sep 2011 - Oct 2017</div>
+                <div class="grid-item">2011 - 2017</div>
                 <div class="grid-item">Doob Innovation Studio Novi Sad</div>
-                <div class="grid-item">Oct 2017 - Jun 2020</div>
+                <div class="grid-item">2017 - 2020</div>
                 <div class="grid-item">Private agency for software development</div>
-                <div class="grid-item">Present</div>
+                <div class="grid-item">2020 - Now</div>
             </div>
         </div>
 
