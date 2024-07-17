@@ -39,12 +39,14 @@ function scrollToAbout() {
 }
 
 function changeDropDownMenuVisibility() {
-    var display = document.getElementById("dropdown-menu").style.display;
-    
-    if (display === "flex") {
-        document.getElementById("dropdown-menu").style.display = "none";
+    var height = document.getElementById("dropdown-menu").style.maxHeight;
+
+    if (height === "1000px") {
+        // document.getElementById("dropdown-menu").style.display = "none";
+        document.getElementById("dropdown-menu").style.maxHeight = "0";
     } else {
-        document.getElementById("dropdown-menu").style.display = "flex";
+        // document.getElementById("dropdown-menu").style.display = "flex";
+        document.getElementById("dropdown-menu").style.maxHeight = "1000px";
     }
 
 }
