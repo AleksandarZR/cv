@@ -157,12 +157,113 @@ h1 {
     height: auto;
 }
 
-.cogwheel01left {
+ /* -------------------------------------------------LEFT COGWHEELS------------------------------------------------------ */
+ .cogwheel25left {
+    bottom: 2351px;
+    left: 40px;
+}
+
+.cogwheel24left {
+    bottom: 3159px;
+    left: -58px;
+}
+
+.cogwheel23left {
+    bottom: 2351px;
+    left: 40px;
+}
+
+.cogwheel22left {
+    bottom: 2867px;
+    left: -60px;
+}
+
+.cogwheel21left {
+    bottom: 2939px;
+    left: 40px;
+}
+
+.cogwheel20left {
+    bottom: 2575px;
+    left: -58px;
+}
+
+.cogwheel19left {
+    bottom: 2645px;
+    left: 40px;
+}
+
+.cogwheel18left {
+    bottom: 2283px;
+    left: -60px;
+}
+
+.cogwheel17left {
+    bottom: 2351px;
+    left: 40px;
+}
+
+.cogwheel16left {
+    bottom: 2191px;
+    left: -58px;
+}
+
+.cogwheel15left {
+    bottom: 2057px;
+    left: 40px;
+}
+
+.cogwheel14left {
+    bottom: 1899px;
+    left: -60px;
+}
+
+.cogwheel13left {
+    bottom: 1763px;
+    left: 40px;
+}
+
+.cogwheel12left {
+    bottom: 1607px;
+    left: -58px;
+}
+
+.cogwheel11left {
+    bottom: 1469px;
+    left: 40px;
+}
+
+.cogwheel10left {
+    bottom: 1315px;
+    left: -60px;
+}
+
+.cogwheel09left {
+    bottom: 1175px;
+    left: 40px;
+}
+
+.cogwheel08left {
+    bottom: 1023px;
+    left: -58px;
+}
+
+.cogwheel07left {
+    bottom: 881px;
+    left: 40px;
+}
+
+.cogwheel06left {
+    bottom: 731px;
+    left: -60px;
+}
+
+.cogwheel05left {
     bottom: 587px;
     left: 40px;
 }
 
-.cogwheel02left {
+.cogwheel04left {
     bottom: 439px;
     left: -58px;
 }
@@ -172,22 +273,123 @@ h1 {
     left: 40px;
 }
 
-.cogwheel04left {
+.cogwheel02left {
     bottom: 147px;
     left: -60px;
 }
 
-.cogwheel05left {
+.cogwheel01left {
     bottom: 0px;
     left: 40px;
 }
 
-.cogwheel01right {
+/* -------------------------------------------------LEFT COGWHEELS------------------------------------------------------ */
+.cogwheel25right {
+    bottom: 2351px;
+    right: 40px;
+}
+
+.cogwheel24right {
+    bottom: 3159px;
+    right: -58px;
+}
+
+.cogwheel23right {
+    bottom: 2351px;
+    right: 40px;
+}
+
+.cogwheel22right {
+    bottom: 2867px;
+    right: -60px;
+}
+
+.cogwheel21right {
+    bottom: 2939px;
+    right: 40px;
+}
+
+.cogwheel20right {
+    bottom: 2575px;
+    right: -58px;
+}
+
+.cogwheel19right {
+    bottom: 2645px;
+    right: 40px;
+}
+
+.cogwheel18right {
+    bottom: 2283px;
+    right: -60px;
+}
+
+.cogwheel17right {
+    bottom: 2351px;
+    right: 40px;
+}
+
+.cogwheel16right {
+    bottom: 2191px;
+    right: -58px;
+}
+
+.cogwheel15right {
+    bottom: 2057px;
+    right: 40px;
+}
+
+.cogwheel14right {
+    bottom: 1899px;
+    right: -60px;
+}
+
+.cogwheel13right {
+    bottom: 1763px;
+    right: 40px;
+}
+
+.cogwheel12right {
+    bottom: 1607px;
+    right: -58px;
+}
+
+.cogwheel11right {
+    bottom: 1469px;
+    right: 40px;
+}
+
+.cogwheel10right {
+    bottom: 1315px;
+    right: -60px;
+}
+
+.cogwheel09right {
+    bottom: 1175px;
+    right: 40px;
+}
+
+.cogwheel08right {
+    bottom: 1023px;
+    right: -58px;
+}
+
+.cogwheel07right {
+    bottom: 881px;
+    right: 40px;
+}
+
+.cogwheel06right {
+    bottom: 731px;
+    right: -60px;
+}
+
+.cogwheel05right {
     bottom: 587px;
     right: 40px;
 }
 
-.cogwheel02right {
+.cogwheel04right {
     bottom: 439px;
     right: -58px;
 }
@@ -197,12 +399,12 @@ h1 {
     right: 40px;
 }
 
-.cogwheel04right {
+.cogwheel02right {
     bottom: 147px;
     right: -60px;
 }
 
-.cogwheel05right {
+.cogwheel01right {
     bottom: 0px;
     right: 40px;
 }
@@ -360,12 +562,113 @@ h1 {
         height: auto;
     }
 
-    .cogwheel01left {
+    /* -------------------------------------------------LEFT COGWHEELS------------------------------------------------------ */
+    .cogwheel25left {
+        bottom: 1754px;
+        left: 48px;
+    }
+
+    .cogwheel24left {
+        bottom: 1682px;
+        left: 0px;
+    }
+
+    .cogwheel23left {
+        bottom: 1608px;
+        left: 48px;
+    }
+
+    .cogwheel22left {
+        bottom: 1535px;
+        left: 0px;
+    }
+
+    .cogwheel21left {
+        bottom: 1461px;
+        left: 48px;
+    }
+
+    .cogwheel20left {
+        bottom: 1387px;
+        left: 0px;
+    }
+
+    .cogwheel19left {
+        bottom: 1315px;
+        left: 48px;
+    }
+
+    .cogwheel18left {
+        bottom: 1244px;
+        left: 0px;
+    }
+
+    .cogwheel17left {
+        bottom: 1170px;
+        left: 48px;
+    }
+
+    .cogwheel16left {
+        bottom: 1097px;
+        left: 0px;
+    }
+
+    .cogwheel15left {
+        bottom: 1024px;
+        left: 48px;
+    }
+
+    .cogwheel14left {
+        bottom: 950px;
+        left: 0px;
+    }
+
+    .cogwheel13left {
+        bottom: 877px;
+        left: 48px;
+    }
+
+    .cogwheel12left {
+        bottom: 805px;
+        left: 0px;
+    }
+
+    .cogwheel11left {
+        bottom: 732px;
+        left: 48px;
+    }
+
+    .cogwheel10left {
+        bottom: 659px;
+        left: 0px;
+    }
+
+    .cogwheel09left {
+        bottom: 586px;
+        left: 48px;
+    }
+
+    .cogwheel08left {
+        bottom: 514px;
+        left: 0px;
+    }
+
+    .cogwheel07left {
+        bottom: 440px;
+        left: 48px;
+    }
+
+    .cogwheel06left {
+        bottom: 367px;
+        left: 0px;
+    }
+
+    .cogwheel05left {
         bottom: 294px;
         left: 48px;
     }
 
-    .cogwheel02left {
+    .cogwheel04left {
         bottom: 220px;
         left: 0px;
     }
@@ -375,22 +678,123 @@ h1 {
         left: 48px;
     }
 
-    .cogwheel04left {
+    .cogwheel02left {
         bottom: 73px;
         left: 0px;
     }
 
-    .cogwheel05left {
+    .cogwheel01left {
         bottom: 0px;
         left: 48px;
     }
 
-    .cogwheel01right {
+    /* ------------------------------------------------RIGHT COGWHEELS------------------------------------------------------ */
+    .cogwheel25right {
+        bottom: 1754px;
+        right: 48px;
+    }
+
+    .cogwheel24right {
+        bottom: 1682px;
+        right: 0px;
+    }
+
+    .cogwheel23right {
+        bottom: 1608px;
+        right: 48px;
+    }
+
+    .cogwheel22right {
+        bottom: 1535px;
+        right: 0px;
+    }
+
+    .cogwheel21right {
+        bottom: 1461px;
+        right: 48px;
+    }
+
+    .cogwheel20right {
+        bottom: 1387px;
+        right: 0px;
+    }
+
+    .cogwheel19right {
+        bottom: 1315px;
+        right: 48px;
+    }
+
+    .cogwheel18right {
+        bottom: 1244px;
+        right: 0px;
+    }
+
+    .cogwheel17right {
+        bottom: 1170px;
+        right: 48px;
+    }
+
+    .cogwheel16right {
+        bottom: 1097px;
+        right: 0px;
+    }
+
+    .cogwheel15right {
+        bottom: 1024px;
+        right: 48px;
+    }
+
+    .cogwheel14right {
+        bottom: 950px;
+        right: 0px;
+    }
+
+    .cogwheel13right {
+        bottom: 877px;
+        right: 48px;
+    }
+
+    .cogwheel12right {
+        bottom: 805px;
+        right: 0px;
+    }
+
+    .cogwheel11right {
+        bottom: 732px;
+        right: 48px;
+    }
+
+    .cogwheel10right {
+        bottom: 659px;
+        right: 0px;
+    }
+
+    .cogwheel09right {
+        bottom: 586px;
+        right: 48px;
+    }
+
+    .cogwheel08right {
+        bottom: 514px;
+        right: 0px;
+    }
+
+    .cogwheel07right {
+        bottom: 440px;
+        right: 48px;
+    }
+
+    .cogwheel06right {
+        bottom: 367px;
+        right: 0px;
+    }
+
+    .cogwheel05right {
         bottom: 294px;
         right: 48px;
     }
 
-    .cogwheel02right {
+    .cogwheel04right {
         bottom: 220px;
         right: 0px;
     }
@@ -400,12 +804,12 @@ h1 {
         right: 48px;
     }
 
-    .cogwheel04right {
+    .cogwheel02right {
         bottom: 73px;
         right: 0px;
     }
 
-    .cogwheel05right {
+    .cogwheel01right {
         bottom: 0px;
         right: 48px;
     }
@@ -511,18 +915,118 @@ h1 {
         justify-content: flex-start;
         align-items: center;
     }
-
     .cogwheel {
         width: 50px;
         height: auto;
     }
 
-    .cogwheel01left {
+    /* -------------------------------------------------LEFT COGWHEELS------------------------------------------------------ */
+    .cogwheel25left {
+        bottom: 900px;
+        left: 24px;
+    }
+
+    .cogwheel24left {
+        bottom: 862px;
+        left: 0px;
+    }
+
+    .cogwheel23left {
+        bottom: 825px;
+        left: 24px;
+    }
+
+    .cogwheel22left {
+        bottom: 787px;
+        left: 0px;
+    }
+
+    .cogwheel21left {
+        bottom: 750px;
+        left: 24px;
+    }
+
+    .cogwheel20left {
+        bottom: 712px;
+        left: 0px;
+    }
+
+    .cogwheel19left {
+        bottom: 675px;
+        left: 24px;
+    }
+
+    .cogwheel18left {
+        bottom: 637px;
+        left: 0px;
+    }
+
+    .cogwheel17left {
+        bottom: 600px;
+        left: 24px;
+    }
+
+    .cogwheel16left {
+        bottom: 562px;
+        left: 0px;
+    }
+
+    .cogwheel15left {
+        bottom: 525px;
+        left: 24px;
+    }
+
+    .cogwheel14left {
+        bottom: 487px;
+        left: 0px;
+    }
+
+    .cogwheel13left {
+        bottom: 450px;
+        left: 24px;
+    }
+
+    .cogwheel12left {
+        bottom: 412px;
+        left: 0px;
+    }
+
+    .cogwheel11left {
+        bottom: 375px;
+        left: 24px;
+    }
+
+    .cogwheel10left {
+        bottom: 337px;
+        left: 0px;
+    }
+
+    .cogwheel09left {
+        bottom: 300px;
+        left: 24px;
+    }
+
+    .cogwheel08left {
+        bottom: 263px;
+        left: 0px;
+    }
+
+    .cogwheel07left {
+        bottom: 225px;
+        left: 24px;
+    }
+
+    .cogwheel06left {
+        bottom: 188px;
+        left: 0px;
+    }
+
+    .cogwheel05left {
         bottom: 150px;
         left: 24px;
     }
 
-    .cogwheel02left {
+    .cogwheel04left {
         bottom: 113px;
         left: 0px;
     }
@@ -532,22 +1036,123 @@ h1 {
         left: 24px;
     }
 
-    .cogwheel04left {
+    .cogwheel02left {
         bottom: 38px;
         left: 0px;
     }
 
-    .cogwheel05left {
+    .cogwheel01left {
         bottom: 0px;
         left: 24px;
     }
 
-    .cogwheel01right {
+    /* --------------------------------------RIGHT COGWHEELS----------------------------------------------- */
+    .cogwheel25right {
+        bottom: 900px;
+        right: 24px;
+    }
+
+    .cogwheel24right {
+        bottom: 862px;
+        right: 0px;
+    }
+
+    .cogwheel23right {
+        bottom: 825px;
+        right: 24px;
+    }
+
+    .cogwheel22right {
+        bottom: 787px;
+        right: 0px;
+    }
+
+    .cogwheel21right {
+        bottom: 750px;
+        right: 24px;
+    }
+
+    .cogwheel20right {
+        bottom: 712px;
+        right: 0px;
+    }
+
+    .cogwheel19right {
+        bottom: 675px;
+        right: 24px;
+    }
+
+    .cogwheel18right {
+        bottom: 637px;
+        right: 0px;
+    }
+
+    .cogwheel17right {
+        bottom: 600px;
+        right: 24px;
+    }
+
+    .cogwheel16right {
+        bottom: 562px;
+        right: 0px;
+    }
+
+    .cogwheel15right {
+        bottom: 525px;
+        right: 24px;
+    }
+
+    .cogwheel14right {
+        bottom: 487px;
+        right: 0px;
+    }
+
+    .cogwheel13right {
+        bottom: 450px;
+        right: 24px;
+    }
+
+    .cogwheel12right {
+        bottom: 412px;
+        right: 0px;
+    }
+
+    .cogwheel11right {
+        bottom: 375px;
+        right: 24px;
+    }
+
+    .cogwheel10right {
+        bottom: 337px;
+        right: 0px;
+    }
+
+    .cogwheel09right {
+        bottom: 300px;
+        right: 24px;
+    }
+
+    .cogwheel08right {
+        bottom: 263px;
+        right: 0px;
+    }
+
+    .cogwheel07right {
+        bottom: 225px;
+        right: 24px;
+    }
+
+    .cogwheel06right {
+        bottom: 188px;
+        right: 0px;
+    }
+
+    .cogwheel05right {
         bottom: 150px;
         right: 24px;
     }
 
-    .cogwheel02right {
+    .cogwheel04right {
         bottom: 113px;
         right: 0px;
     }
@@ -557,12 +1162,12 @@ h1 {
         right: 24px;
     }
 
-    .cogwheel04right {
+    .cogwheel02right {
         bottom: 38px;
         right: 0px;
     }
 
-    .cogwheel05right {
+    .cogwheel01right {
         bottom: 0px;
         right: 24px;
     }
