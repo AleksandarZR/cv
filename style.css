@@ -1,10 +1,18 @@
 :root {
     --background-color: rgb(221, 160, 126);
+    --background-color: rgb(169,177,214);
+    --background-color: rgb(216, 234, 249);
     --foreground-color: rgb(187, 187, 187);
     --orange: rgb(250, 126, 57);
+    --lightorange: rgb(248, 164, 113);
+    --lightorange: rgb(254, 184, 140);
     --shadow-color: lightblue;
     --darkblue: rgb(10, 10, 110);
     --lightblue: rgba(0, 212, 255, 1);
+    --lightblue: rgb(118, 186, 241);
+    --lightblue: rgb(113, 190, 252);
+    --lightblue: rgb(122, 188, 241);
+    --navigation-color: var(--lightorange);
 }
 
 * {
@@ -20,6 +28,7 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: cursive;
+    /* font-family: Montserrat; */
     /* font-family: roboto; */
 
     display: flex;
@@ -36,11 +45,18 @@ body {
     /* border: 1px dotted purple; */
     white-space: wrap;
     word-wrap: break-word;
+    /* background-color: aliceblue; */
+    background-color: rgb(216, 234, 249);
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+h1 {
+    font-size: 1.7rem;
+    font-weight: 100;
 }
 
 .navigation {
@@ -49,19 +65,24 @@ body {
     left: 0;
     width: 100%;
     max-width: 100%;
+    height: 4rem;
     z-index: 100;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
 
     /* background-color: var(--foreground-color); */
-    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%);
-    box-shadow: 0.2rem 0.2rem 1rem black;
+    /* background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%); */
+    /* background-color: rgba(0, 212, 255, 0.8); */
+    /* background-color: var(--lightblue); */
+    background-color: lightsteelblue;
+    background-color: lightgray;
+    background-color: var(--navigation-color);
+    box-shadow: 0rem 0rem 1.2rem rgb(53, 37, 72);
     /* border-style: solid; */
     /* border: 0px 0px 5px 0px; */
     /* border-top: 0px;
-    border-color: black;
-    border-bottom-width: 0.2rem;
-    border-bottom-color: black; */
+    border-color: black;*/
+    /* border-bottom-style: solid; */
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(53, 37, 72); 
 
     display: flex;
     flex-direction: row;
@@ -71,6 +92,18 @@ body {
 
 .hamburger-menu {
     display: none;
+}
+
+.svg {
+    height: 2rem;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: transform 1s;
+}
+
+.svg:hover {
+    transform: scale(1.2);
 }
 
 .links {
@@ -94,7 +127,7 @@ body {
     font-weight: 100;
 
     display: block;
-    transition: transform 300ms ease-out;
+    transition: transform 500ms ease-out;
 }
 
 .link:hover {
@@ -296,7 +329,8 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 1.5rem;
-    background-color: rgba(0, 212, 255, 0.5);
+    /* background-color: rgba(0, 212, 255, 0.5); */
+    background-color: var(--background-color);
 
     display: flex;
     flex-direction: column;
@@ -456,10 +490,12 @@ body {
 
     .hamburger-menu {
         width: 100%;
+        height: 4rem;
         position: fixed;
         z-index: 100;
-        font-size: 0.7rem;
-        background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%);
+        /* font-size: 0.7rem; */
+        /* background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgb(48, 48, 176) 50%, rgba(0, 212, 255, 1) 100%); */
+        background-color: var(--lightblue);
         box-shadow: 0.2rem 0.2rem 1rem black;
 
         display: flex;
