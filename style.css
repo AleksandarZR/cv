@@ -1,6 +1,6 @@
 :root {
     --background-color: rgb(221, 160, 126);
-    --background-color: rgb(169,177,214);
+    --background-color: rgb(169, 177, 214);
     --background-color: rgb(216, 234, 249);
     --foreground-color: rgb(187, 187, 187);
     --orange: rgb(250, 126, 57);
@@ -8,7 +8,8 @@
     --lightorange: rgb(254, 184, 140);
     --lightorangetransparent: rgba(254, 184, 140, 0.9);
     --lightyellow: rgb(245, 254, 139);
-    --lightgreen: rgb(128, 252, 128);
+    --lightgreen: rgba(128, 252, 128, 0.95);
+    --lightgreentransparent: rgba(128, 252, 128, 0.9);
     --shadow-color: lightblue;
     --darkblue: rgb(10, 10, 110);
     --lightblue: rgba(0, 212, 255, 1);
@@ -18,12 +19,16 @@
 
     --navigation-height: 5rem;
     --navigation-color: lavender;
-    --navigation-color: var(--lightorange);   
-    --navigation-shadow:  0rem 0rem 1.2rem rgb(53, 37, 72);
+    /* --navigation-color: var(--lightorange); */
+    --navigation-color: var(--lightgreen);
+    --navigation-color-transparent: var(--lightgreentransparent);
+    --navigation-shadow: 0rem 0rem 1.2rem rgb(53, 37, 72);
     --background-color: lavender;
-    --background-color: rgb(177, 177, 177);
-    --background-color: rgb(40, 40, 40);
+    --background-color: rgb(174, 174, 226);
+    /* --background-color: rgb(177, 177, 177); */
+    /* --background-color: rgb(40, 40, 40); */
     --header-color: var(--lightgreen);
+    --header-color: var(--lightorange);
     --grid-color: white;
     --metal-color: rgb(128, 128, 128);
 
@@ -43,7 +48,7 @@ html {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: cursive;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,8 +165,8 @@ h1 {
     height: auto;
 }
 
- /* -------------------------------------------------LEFT COGWHEELS------------------------------------------------------ */
- .cogwheel25left {
+/* -------------------------------------------------LEFT COGWHEELS------------------------------------------------------ */
+.cogwheel25left {
     bottom: 2351px;
     left: 40px;
 }
@@ -848,24 +853,30 @@ h1 {
         line-height: 1.2;
         overflow-y: hidden;
     }
+
     .card {
         height: 75%;
         flex-direction: column;
         justify-content: space-between;
     }
+
     .image-container {
         max-height: 30%;
         height: 30%;
     }
+
     .image {
         object-fit: contain;
     }
+
     .image-experience {
         content: url("./images/image08.png");
     }
+
     .header {
         font-size: 1.2rem;
     }
+
     .data {
         max-height: 70%;
         height: 70%;
@@ -909,9 +920,131 @@ h1 {
         align-items: center;
     }
 
+    /*--------------------------------------------------------HAMBURGER ICON START-----------------------------------------------------------------------*/
+    .hamburger-icon {
+        width: auto;
+        /* margin: 0 auto; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        transition: transform 1s;
+    }
+
+    /* .hamburger:hover {
+        transform: scale(1.2);
+    } */
+
+    .visuallyHidden {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .hamburger {
+        margin: 0 auto;
+        /* margin-top: 30px; */
+        width: 2rem;
+        height: 2rem;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .hamburger .bar {
+        padding: 0;
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        display: block;
+        border-radius: 4px;
+        transition: all 0.4s ease-in-out;
+        position: absolute;
+    }
+
+    .bar1 {
+        top: 0;
+    }
+
+    .bar2,
+    .bar3 {
+        top: 13.5px;
+    }
+
+    .bar3 {
+        right: 0;
+    }
+
+    .bar4 {
+        bottom: 0;
+    }
+
+    .hamburger2 .bar2,
+    .hamburger3 .bar3,
+    .hamburger4 .bar4 {
+        top: 13.5px;
+    }
+
+    .hamburger4 .bar5 {
+        bottom: 0px;
+    }
+
+    .hamburger4 .bar {
+        transition: all 0.4s ease-in-out, transform 0.4s ease-in-out 0.4s;
+    }
+
+    .hamburger4 .bar2 {
+        width: 1px;
+        transform: rotate(90deg);
+        left: 13.5px;
+    }
+
+    .hamburger4 .bar3 {
+        width: 1px;
+        left: 13.5px;
+
+    }
+
+    .checkbox4:checked+label>.hamburger4>.bar1 {
+        top: 13.5px;
+        background-color: transparent;
+    }
+
+    .checkbox4:checked+label>.hamburger4>.bar2 {
+        left: 0px;
+        width: 30px;
+        transform: rotate(45deg);
+    }
+
+    .checkbox4:checked+label>.hamburger4>.bar3 {
+        left: 0;
+        width: 30px;
+        transform: rotate(-45deg);
+    }
+
+    .checkbox4:checked+label>.hamburger4>.bar4 {
+        background-color: transparent;
+    }
+
+    .checkbox4:checked+label>.hamburger4>.bar5 {
+        bottom: 13.5px;
+        background-color: transparent;
+    }
+
+    /*---------------------------------------------------------HAMBURGER ICON END------------------------------------------------------------------------*/
+
     #dropdown-menu {
         width: 100%;
-        background-color: var(--lightorangetransparent);
+        background-color: var(--navigation-color-transparent);
         max-height: 0;
         transition: all 1.5s ease;
         transition-delay: 0s;
@@ -1225,13 +1358,13 @@ h1 {
             transform: rotate(720deg);
         }
     }
-    
+
     @keyframes rotate-ccw {
         to {
             transform: rotate(-720deg);
         }
     }
-    
+
     @keyframes translate-y {
         to {
             transform: translateY(-301px);
