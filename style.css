@@ -27,8 +27,9 @@
     --background-color: rgb(174, 174, 226);
     /* --background-color: rgb(177, 177, 177); */
     /* --background-color: rgb(40, 40, 40); */
+    --header-color: rgb(174, 174, 226);
     --header-color: var(--lightgreen);
-    --header-color: var(--lightorange);
+    /* --header-color: var(--lightorange); */
     --grid-color: white;
     --metal-color: rgb(128, 128, 128);
 
@@ -932,7 +933,7 @@ h1 {
         transition: transform 1s;
     }
 
-    /* .hamburger:hover {
+    /* .hamburger-icon:hover {
         transform: scale(1.2);
     } */
 
