@@ -44,11 +44,13 @@
 html {
     width: 100%;
     /* border: 1px dotted purple; */
-    /* font-family: Montserrat; */
-    /* font-family: roboto; */
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: cursive;
+    font-family: Montserrat;
+    font-family: roboto;
+    font-family: Poppins;
+    font-family: Orbitron;
 
     display: flex;
     flex-direction: column;
@@ -886,7 +888,7 @@ h1 {
     }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 977px) {
     body {
         min-height: 400vh;
     }
