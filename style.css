@@ -875,14 +875,14 @@ h1 {
     }
 
     .header {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .data {
         max-height: 70%;
         height: 70%;
         row-gap: 0.1rem;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -1047,7 +1047,7 @@ h1 {
         width: 100%;
         background-color: var(--navigation-color-transparent);
         max-height: 0;
-        transition: all 1.5s ease;
+        transition: all 1s ease;
         transition-delay: 0s;
 
         display: flex;
@@ -1351,7 +1351,11 @@ h1 {
     }
 
     .header {
-        font-size: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .data {
+        font-size: 1.5rem;
     }
 
     @keyframes rotate-cw {
